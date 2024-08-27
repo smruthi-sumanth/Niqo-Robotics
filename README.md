@@ -4,32 +4,6 @@
 
 This project aims to develop a font recognition system using machine learning techniques. The system identifies and classifies fonts from images of text. It leverages a variety of image processing and classification methods to achieve accurate font recognition.
 
-## Project Structure
-
-The project directory is organized as follows:
-
-. ├── DSA │ 
-    ├── README.md │ 
-    ├── max_pooling.py 
-  ├── Dataset │ 
-    └── images_fonts │   
-    └── images │ 
-    ├── Arimo-Regular │ 
-    ├── Dancing+Script-Regular │ 
-    ├── FredokaOne-Regular │ 
-    ├── NotoSans-Regular │ 
-    ├── Open+Sans-Regular │ 
-    ├── Oswald-Regular │ 
-    ├── PTSerif-Regular │ 
-    ├── PatuaOne-Regular │ 
-    ├── Roboto-Regular │ 
-    └── Ubuntu-Regular 
-  ├── Training │ 
-    └── niqo-robotics-cv-internship-task.ipynb 
-  ├── init.py 
-  ├── app.py 
-  ├── requirements.txt 
-  └── segment.py
 
 ## Installation
 
