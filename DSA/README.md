@@ -40,18 +40,18 @@ Padding the matrix involves iterating over every element of the input matrix:
 ### 3. Max Pooling Operation
 
 For each position of the pooling window, the maximum value is computed:
-- For each window position, the time complexity is \(O(p \times q)\).
+- For each window position, the time complexity is \(O(p x q)\).
 - There are \(h \times w\) such positions in the output matrix.
-- **Total Time Complexity for Max Pooling:** \(O(h \times w \times p \times q)\)
+- **Total Time Complexity for Max Pooling:** \(O(h x w x p x q)\)
 
 ### Overall Time Complexity
 
 Combining the padding and max pooling operations:
-- **Overall Time Complexity:** \(O(n \times m) + O(h \times w \times p \times q)\)
+- **Overall Time Complexity:** \(O(n x m) + O(h x w x p x q)\)
 
 Where:
-- \(O(n \times m)\) accounts for the padding operation.
-- \(O(h \times w \times p \times q)\) accounts for the max pooling operation.
+- \(O(n x m)\) accounts for the padding operation.
+- \(O(h x w x p x q)\) accounts for the max pooling operation.
 
 ## Conclusion
 
