@@ -1,4 +1,4 @@
-# Max Pooling with Brute Force Approach
+# Max Pooling Algorithm
 
 ## Description
 
